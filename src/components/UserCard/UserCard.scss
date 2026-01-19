@@ -1,0 +1,19 @@
+/* Card singolo utente */
+.user {
+    padding: 8px 16px; /* Spaziatura interna */
+
+    border: 1px solid #ccc; /* Bordo grigio chiaro */
+    border-radius: 8px; /* Angoli arrotondati */
+
+    /* Dati utente (nome, email) */
+    &__data {
+        margin: 0; /* Rimuove margini predefiniti */
+    }
+
+    /* Bottone di eliminazione */
+    &__delete {
+        margin-top: 8px; /* Spazio sopra il bottone */
+
+        background: rgb(255, 89, 89); /* Colore rosso per azione di delete */
+    }
+}

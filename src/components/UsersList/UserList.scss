@@ -1,24 +1,13 @@
 .users {
-    //LIST
+    /* Lista degli utenti */
     &__list {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        display: flex; /* Layout flessibile */
+        align-items: center; /* Allineamento al centro orizzontale */
+        flex-direction: column; /* Disposizione verticale */
 
-        gap: 12px;
+        gap: 12px; /* Spazio tra le card */
 
-        list-style: none;
-        padding: 0;
-    }
-
-    .user {
-        padding: 8px 16px;
-
-        border: 1px solid #ccc;
-        border-radius: 4px;
-
-        &__data {
-            margin: 0;
-        }
+        list-style: none; /* Rimuove i bullet point */
+        padding: 0; /* Rimuove padding predefinito */
     }
 }
