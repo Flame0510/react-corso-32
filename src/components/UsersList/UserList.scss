@@ -1,0 +1,24 @@
+.users {
+    //LIST
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        gap: 12px;
+
+        list-style: none;
+        padding: 0;
+    }
+
+    .user {
+        padding: 8px 16px;
+
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        &__data {
+            margin: 0;
+        }
+    }
+}
