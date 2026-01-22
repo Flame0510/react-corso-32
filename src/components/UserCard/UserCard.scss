@@ -1,10 +1,5 @@
 /* Card singolo utente */
 .user {
-    padding: 8px 16px; /* Spaziatura interna */
-
-    border: 1px solid #ccc; /* Bordo grigio chiaro */
-    border-radius: 8px; /* Angoli arrotondati */
-
     /* Dati utente (nome, email) */
     &__data {
         margin: 0; /* Rimuove margini predefiniti */
