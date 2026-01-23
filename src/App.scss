@@ -1,7 +1,24 @@
 /* Container principale dell'applicazione */
 #root {
-    max-width: 1440px; /* Larghezza massima contenitore */
     margin: 0 auto; /* Centratura orizzontale */
-    padding: 2rem; /* Spaziatura interna */
+
     text-align: center; /* Allineamento testo al centro */
+}
+
+.app-container {
+    padding: 2rem;
+
+    // & = .app-container
+    // &.theme = .app-container.theme
+    &.theme {
+        &-light {
+            background-color: #5d5d5d;
+            color: #213547;
+        }
+
+        &-dark {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+    }
 }
