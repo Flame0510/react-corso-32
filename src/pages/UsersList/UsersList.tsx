@@ -52,7 +52,7 @@ const UsersList = () => {
         <div className="users">
             <h2>Rubrica Utenti</h2>
 
-            <div className="flex gap-sm my-md">
+            <div className="flex gap-sm justify-center my-md">
                 {/* Bottone per ricaricare la lista utenti */}
                 <button onClick={fetchUsers}>Ricarica</button>
 

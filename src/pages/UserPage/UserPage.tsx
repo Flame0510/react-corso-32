@@ -8,7 +8,7 @@ const SingleData = ({ type, data }: { type: string; data: string }) => (
     </p>
 );
 
-const User = () => {
+const UserPage = () => {
     // Recupera il parametro userId dalla URL
     const { userId } = useParams();
 
@@ -65,4 +65,4 @@ const User = () => {
     );
 };
 
-export default User;
+export default UserPage;
